@@ -4,8 +4,8 @@ import linkedin from '../assets/2BDB40DA-EEDA-4017-84D1-C2ADC6994659.jpeg'
 
 export const Nav1 = () => {     
     return (  
-        
-        <div className="flex flex-col sm:flex-row justify-center w-3/4 mx-auto sm:max-w-fit space-x-2.5 bg-gradient-to-r  from-cyan-600 to-violet-400 text-white p-3 font-bold rounded-2xl">
+        <div className='flex fixed top-0 z-10 w-full h-fit bg-transparent backdrop-blur-lg'>
+        <div className="flex flex-col sm:flex-row justify-center w-3/4 mx-auto sm:max-w-fit space-x-2.5 bg-gradient-to-r  from-cyan-600 to-violet-400 text-white p-2 font-bold rounded-2xl">
             <ul className="flex content-center justify-center space-x-4">
                 <li><a href="#About" className="font-sans">About</a></li>
                 <li><a href="#Experiance">Experiance</a></li>
@@ -25,6 +25,7 @@ export const Nav1 = () => {
                 </a>
             </ul>
 
+        </div>
         </div>
         
           

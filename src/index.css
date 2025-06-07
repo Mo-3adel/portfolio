@@ -28,6 +28,7 @@
 
 body {
   margin: 0;
+  padding-top: 25px;
   
   place-items: top;
   min-width: 320px;

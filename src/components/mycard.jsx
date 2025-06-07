@@ -4,9 +4,9 @@ import mypic from "../assets/IMG_6933.jpeg";
 function Mycard() {
     return (  
         <div className="flex flex-col items-center justify-center h-2/3 ">
-        <div className="w-fit h-fit flex flex-row rounded-t-3xl mt-5  gap-2 bg-transparent backdrop-blur-sm ">
-            <div className="flex flex-col  items-center font-sans p-3 m-3 text-shadow-violet-300 text-shadow-sm ">
-                <p>
+        <div className="w-fit h-fit items-center flex flex-col sm:flex-row rounded-t-3xl mt-5  gap-2 bg-transparent backdrop-blur-sm ">
+            <div className="flex flex-col  items-center font-sans p-3 m-3">
+                <p className="text-center md:text-left">
                     <span className="text-4xl text-violet-400 font-bold">Hello,</span>
                     <span className="text-xl text-gray-300 "> I'm Mohamed Adel </span> 
                     <br /> 
@@ -22,8 +22,8 @@ function Mycard() {
 
             </div>
             
-            <div className="w-auto h-auto m-3">
-                <img className="w-80 h-52 md:h-72 rounded-full border-4 border-violet-400 shadow-lg shadow-violet-500 object-fill" src={mypic} alt="Profile" /> 
+            <div className="w-60 h-fit m-3">
+                <img className="w-80 h-52 md:h-64 rounded-full border-4 border-violet-400 shadow-lg shadow-violet-500 object-cover" src={mypic} alt="Profile" /> 
             </div>
             
             
