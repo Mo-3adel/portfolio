@@ -16,7 +16,7 @@ export const Nav1 = () => {
             </ul>
             <ul className="flex content-center justify-center space-x-4 ">
                 <li><a href="#Contact" className="font-sans">Contact</a></li>
-                <li><a href="/Mohamed_Adel_SW_ENG.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                <li><a href="/Mohamed_Adel_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
                 <a href="https://www.linkedin.com/in/mohamed-adel-47aa01177/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedin} width={27} className="rounded-full" alt='LinkedIn'></img>
                 </a>
