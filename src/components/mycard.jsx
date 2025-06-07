@@ -1,4 +1,4 @@
-import About from "./about";
+
 import mypic from "../assets/IMG_6933.jpeg"; // Adjust the path as necessary
 
 function Mycard() {
@@ -16,7 +16,7 @@ function Mycard() {
                     <br />
                     <span className="text-sm text-gray-400 text-shadow-none">This is my personal website, where I share my projects and ideas.</span>
                     <div className="gap-x-3 m-1 p-1">
-                        <About />
+                     
                     </div>
                 </p>
 
@@ -50,12 +50,12 @@ function Mycard() {
 
     <div className="flex flex-col lg:flex-row items-center">
 
-        <div className="flex flex-row items-center justify-center mt-5 max-w-full w-auto h-fit border-2 border-violet-500 rounded-2xl bg-black backdrop-blur-md shadow-lg shadow-violet-300 p-4 hover:scale-[1.02] transition-all duration-300">    
+        <div className="flex flex-col sm:flex-row items-center justify-center mt-5 max-w-full w-fit mx-5 h-fit border-2 border-violet-500 rounded-2xl bg-black backdrop-blur-md shadow-lg shadow-violet-300 p-4 hover:scale-[1.02] transition-all duration-300">    
 
             <h1 className="text-gray-400">Tech Stack.</h1>
             <vr className="w-0.5 bg-white" />
 
-
+            <div className="flex flex-row items-center justify-center gap-2 m-2">
             <div className="flex flex-col w-fit h-fit bg-gradient-to-r from-green-900/60 to-violet-900/60 rounded-xl p-4 border border-violet-600 shadow-md m-1">
                 <p className="text-2xl text text-gray-200">Backend</p>
                 <br />
@@ -65,6 +65,7 @@ function Mycard() {
                 <p className="text-2xl text text-gray-200">Frontend</p>
                 <br />
                 <p className="text-md text-gray-100">- ReactJS<br/>- TailwindCSS<br/>- Bootstrap<br/>- HTML5<br/>- CSS</p>
+            </div>
             </div>
             <div className="flex flex-col w-fit h-fit bg-gradient-to-r from-green-900/60 to-violet-900/60 rounded-xl p-4 border border-violet-600 shadow-md m-1">
                 <p className="text-2xl text text-gray-200">AI/ML</p>

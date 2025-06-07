@@ -7,14 +7,14 @@ import steelDefectImage from '../assets/9B856CD5-30C6-48B1-9AD8-8B5C91ADCF77_4_5
 
 function Projects() {
     return ( 
-        <div id="Projects" className="flex flex-row items-stretch space-x-2 p-1 my-5 mr-4 rounded-2xl bg-black shadow-2xl shadow-violet-500 w-screen h-fit overflow-x-auto border-2 border-violet-700">
+        <div id="Projects" className="flex flex-col sm:flex-row items-center sm:items-stretch space-y-2 sm:space-x-2 p-1 my-5 mx-2 sm:mx-0 rounded-2xl bg-black shadow-2xl shadow-violet-500 w-auto h-64 sm:h-fit overflow-y-scroll overflow-x-hidden sm:overflow-x-auto border-2 border-violet-700">
 
             
             <Pcard
                 name="Portfolio Website"
                 description="A personal portfolio website showcasing my projects and skills."
                 image={portfolioImage}
-                link="aa"></Pcard>
+                link="https://portfolio-chi-vert-41.vercel.app"></Pcard>
 
             <Pcard
                 name="Expenses Tracker"
